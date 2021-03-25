@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  BooksManager
+
+  Created by Sebastian Staszczyk on 14/03/2021.
+  
+*/
+
+English;
+
+// Search From
+"Search" = "Search";
+"Precise Search" = "Precise Search";
+"Title" = "Title";
+"Author" = "Author";
+"Additional filtering" = "Additional filtering";
+"Print type" = "Print type";
+"Show only epub available" = "Show only epub available";
+"Sort by newest" = "Sort by newest";
+"Done" = "Done";
+"Reset" = "Reset";
+
+// Print Type enum
+"All" = "All";
+"Books" = "Books";
+"Magazines" = "Magazines";
+
+// Additional Filtering enum
+"Free ebooks" = "Free ebooks";
+"Paid ebooks" = "Paid ebooks";
+"None" = "None";
+
+Polish;
+
+// Search From
+"Search" = "Szukaj";
+"Precise Search" = "Wyszukiwanie precyzyjne";
+"Title" = "Tytuł";
+"Author" = "Autor";
+"Additional filtering" = "Dodatkowe filtrowanie";
+"Print type" = "Rodzaj druku";
+"Show only epub available" = "Pokaż tylko w formacie epub";
+"Sort by newest" = "Sortuj od najnowszych";
+"Done" = "Zatwierdź";
+"Reset" = "Zresetuj";
+
+// Print Type enum
+"All" = "Wszystko";
+"Books" = "Książki";
+"Magazines" = "Magazyny";
+
+// Additional Filtering enum
+"Free ebooks" = "Darmowe ebooki";
+"Paid ebooks" = "Płatne ebooki";
+"None" = "Brak";

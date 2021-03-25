@@ -1,0 +1,760 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 202,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "hnT3DwAAQBAJ",
+      "etag": "yuCAfqylCuQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hnT3DwAAQBAJ",
+      "volumeInfo": {
+        "title": "SwiftUI For Dummies",
+        "authors": [
+          "Wei-Meng Lee"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2020-08-12",
+        "description": "The simplest way to create world-class apps Have a unique app idea but worried you don’t quite have the coding skills to build it? Good news: You can stop fretting about someone beating you to market with the same idea and start work right now using SwiftUI. SwiftUI is a gateway app development framework that has become one of the best ways for fledgling developers to get iOS apps off the ground without having to become a coding expert overnight. SwiftUI For Dummies makes that process even faster, providing a friendly introduction to the SwiftUI and Swift programming language and helping you feel right at home creating and building with playgrounds. The book also covers the frameworks and APIs that make it so easy to create smooth, intuitive interfaces—just dive right in and have fun! Combine projects into workspaces Employ Xcode editing tools Use constants and variables Test your code on iOS Simulator Time is of the essence, and with SwiftUI For Dummies, it’s also on your side. Get going with this friendly guide today, and you’ll be celebrating the successful launch of your app way before you thought possible!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781119652724"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1119652723"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hnT3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hnT3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=hnT3DwAAQBAJ&pg=PA376&dq=SwiftUI&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=hnT3DwAAQBAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/SwiftUI_For_Dummies.html?hl=&id=hnT3DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/SwiftUI_For_Dummies-sample-pdf.acsm?id=hnT3DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hnT3DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eSwiftUI\u003c/b\u003e by Example (www.hackingwithswift.com/quick-start/\u003cb\u003eswiftui\u003c/b\u003e) has a vast \u003cbr\u003e\ncollection of tutorials on everything related to \u003cb\u003eSwiftUI\u003c/b\u003e. If you search online for \u003cbr\u003e\nanything related to \u003cb\u003eSwiftUI\u003c/b\u003e, chances are, you&#39;ll find an answer on Swift by \u003cbr\u003e\nExample."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hDgEEAAAQBAJ",
+      "etag": "VBB2lDoTn34",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hDgEEAAAQBAJ",
+      "volumeInfo": {
+        "title": "SwiftUI Cookbook",
+        "subtitle": "Discover solutions and best practices to tackle the most common problems while building SwiftUI apps",
+        "authors": [
+          "Giordano Scalzo",
+          "Edgar Nzokwe"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2020-10-19",
+        "description": "SwiftUI is an innovative new framework to build UI for all Apple platforms using Swift. This recipe-based guide covers the new features of SwiftUI 2 introduced on iOS14 and helps you migrate from UIkit with a simple learning curve through practical solutions. Learn how SwiftUI combines with Apple dev tools to build truly cross-platform Apple apps.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781839212697"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1839212691"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 614,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hDgEEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hDgEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=hDgEEAAAQBAJ&pg=PA542&dq=SwiftUI&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=hDgEEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hDgEEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 109.72,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 76.8,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=hDgEEAAAQBAJ&rdid=book-hDgEEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 109720000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 76800000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hDgEEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The default fonts provided by \u003cb\u003eSwiftUI\u003c/b\u003e are pretty cool, but sometimes we need \u003cbr\u003e\nmore flexibility. So we&#39;ll see how to use custom fonts in \u003cb\u003eSwiftUI\u003c/b\u003e. Finally, we&#39;ll \u003cbr\u003e\nimplement something that almost every app needs: a way of handling images \u003cbr\u003e\nwhen they&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1y8NEAAAQBAJ",
+      "etag": "q80WN76l7oU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1y8NEAAAQBAJ",
+      "volumeInfo": {
+        "title": "SwiftUI Essentials - iOS 14 Edition",
+        "subtitle": "Learn to Develop iOS Apps Using SwiftUI, Swift 5 and Xcode 12",
+        "authors": [
+          "Neil Smyth"
+        ],
+        "publisher": "eBookFrenzy",
+        "publishedDate": "2020-12-07",
+        "description": "The goal of this book is to teach the skills necessary to build iOS 14 applications using SwiftUI, Xcode 12 and the Swift 5.3 programming language. Beginning with the basics, this book provides an outline of the steps necessary to set up an iOS development environment together with an introduction to the use of Swift Playgrounds to learn and experiment with Swift. The book also includes in-depth chapters introducing the Swift 5.3 programming language including data types, control flow, functions, object-oriented programming, property wrappers and error handling. An introduction to the key concepts of SwiftUI and project architecture is followed by a guided tour of Xcode in SwiftUI development mode. The book also covers the creation of custom SwiftUI views and explains how these views are combined to create user interface layouts including the use of stacks, frames and forms. Other topics covered include data handling using state properties in addition to observable, state and environment objects, as are key user interface design concepts such as modifiers, lists, tabbed views, context menus, user interface navigation, and outline groups. The book also includes chapters covering graphics drawing, user interface animation, view transitions and gesture handling, WidgetKit, document-based apps and SiriKit integration. Chapters are also provided explaining how to integrate SwiftUI views into existing UIKit-based projects and explains the integration of UIKit code into SwiftUI. Finally, the book explains how to package up a completed app and upload it to the App Store for publication. Along the way, the topics covered in the book are put into practice through detailed tutorials, the source code for which is also available for download. The aim of this book, therefore, is to teach you the skills necessary to build your own apps for iOS 14 using SwiftUI. Assuming you are ready to download the iOS 14 SDK and Xcode 12 and have an Apple Mac system you are ready to get started.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781951442279"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "195144227X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 492,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1y8NEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1y8NEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=1y8NEAAAQBAJ&printsec=frontcover&dq=SwiftUI&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=1y8NEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1y8NEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 129.32,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 129.32,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=1y8NEAAAQBAJ&rdid=book-1y8NEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 129320000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 129320000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/SwiftUI_Essentials_iOS_14_Edition-sample-epub.acsm?id=1y8NEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1y8NEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The goal of this book is to teach the skills necessary to build iOS 14 applications using SwiftUI, Xcode 12 and the Swift 5.3 programming language."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2qELEAAAQBAJ",
+      "etag": "nORZfSeiDaU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2qELEAAAQBAJ",
+      "volumeInfo": {
+        "title": "SwiftUI Projects",
+        "subtitle": "Build six real-world, cross-platform mobile applications using Swift, Xcode 12, and SwiftUI",
+        "authors": [
+          "Craig Clayton"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2020-12-11",
+        "description": "Learn SwiftUI by designing and building complex user interfaces for watchOS, iPadOS, and iOS with the help of projects including a financial app, a sports news app, and a POS system Key Features Learn SwiftUI with the help of practical cross-platform development projects Understand the design considerations for building apps for different devices such as Apple Watch, iPhone, and iPad using SwiftUI's latest features Work with advanced SwiftUI layout features, including SF Symbols, SwiftUI grids, and forms in SwiftUI Book Description Released by Apple during WWDC 2019, SwiftUI provides an innovative and exceptionally simple way to build user interfaces for all Apple platforms with the power of Swift. This practical guide involves six real-world projects built from scratch, with two projects each for iPhone, iPad, and watchOS, built using Swift programming and Xcode. Starting with the basics of SwiftUI, you'll gradually delve into building these projects. You'll learn the fundamental concepts of SwiftUI by working with views, layouts, and dynamic types. This SwiftUI book will also help you get hands-on with declarative programming for building apps that can run on multiple platforms. Throughout the book, you'll work on a chart app (watchOS), NBA draft app (watchOS), financial app (iPhone), Tesla form app (iPhone), sports news app (iPad), and shoe point-of-sale system (iPad), which will enable you to understand the core elements of a SwiftUI project. By the end of the book, you'll have built fully functional projects for multiple platforms and gained the knowledge required to become a professional SwiftUI developer. What you will learn Understand the basics of SwiftUI by building an app with watchOS Work with UI elements such as text, lists, and buttons Create a video player in UIKit and import it into SwiftUI Discover how to leverage an API and parse JSON in your app using Combine Structure your app to use Combine and state-driven features Create flexible layouts on iPad Who this book is for SwiftUI Projects is intended for anyone who is already comfortable with Swift. We do not cover Swift topics in detail, so you need to be familiar with these already. All of the SwiftUI topics are taught as if this is the first time you've learned them and will gradually get more difficult.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781839218293"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1839218290"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 410,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2qELEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2qELEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=2qELEAAAQBAJ&pg=PA153&dq=SwiftUI&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2qELEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2qELEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 90.93,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 63.65,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=2qELEAAAQBAJ&rdid=book-2qELEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 90930000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 63650000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2qELEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eSwiftUI\u003c/b\u003e is a fantastic new way to build apps. \u003cb\u003eSwiftUI\u003c/b\u003e is excellent on the iPhone \u003cbr\u003e\nand iPad but still has some way to go on the Apple Watch. Building apps for the \u003cbr\u003e\niPhone and iPad using \u003cb\u003eSwiftUI\u003c/b\u003e is most exciting to me. When I think of \u003cb\u003eSwiftUI\u003c/b\u003e, I \u003cbr\u003e\nthink&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dcIjzgEACAAJ",
+      "etag": "JKQ4CRtkjf4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dcIjzgEACAAJ",
+      "volumeInfo": {
+        "title": "SwiftUI IOS13 Coffee Shop Application, Order Products Online",
+        "authors": [
+          "David Kababyan"
+        ],
+        "publishedDate": "2020",
+        "description": "Build a coffee shop application for iOS using Xcode 11, SwiftUI, iOS 13, Firebase Firestore, and Swift 5 About This Video Learn how to write clean and readable code Build a professional iOS application Explore SwiftUI In Detail In this course, you'll build a real online coffee ordering application using SwiftUI. This course is for iOS developers who know their way around Xcode and are familiar with Swift, SwiftUI, and application development. You'll learn how to build an application from the ground up alongside the instructor using all the assets provided. The course explains every line of code and shows you how to write clean and readable code and structure your app development in such a way that even if you get back to your code in a few years, you'll be able to read and understand it clearly. Even if you are an experienced iOS developer, you'll learn something new in this course.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1800563078"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781800563070"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=dcIjzgEACAAJ&dq=SwiftUI&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=dcIjzgEACAAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/SwiftUI_IOS13_Coffee_Shop_Application_Or.html?hl=&id=dcIjzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dcIjzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Build a coffee shop application for iOS using Xcode 11, SwiftUI, iOS 13, Firebase Firestore, and Swift 5 About This Video Learn how to write clean and readable code Build a professional iOS application Explore SwiftUI In Detail In this ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2f4gzgEACAAJ",
+      "etag": "35UuBEgkIAo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2f4gzgEACAAJ",
+      "volumeInfo": {
+        "title": "SwiftUI - Build Beautiful, Robust, Apps",
+        "authors": [
+          "Nick Walter"
+        ],
+        "publishedDate": "2019",
+        "description": "Create stunning user interfaces across all Apple platforms with Swift 5 About This Video The flow of the course is simple and you will enjoy how complex concepts were taught in a logical sequence. In Detail Apple has just announced the biggest thing since Swift, and it is aptly named, SwiftUI. Apple changed the game with the release of Swift 5 years ago. It has helped millions of developers create amazing apps with easy to learn yet powerful clean code. SwiftUI brings that same ideal to the visual side of apps. SwiftUI helps developers by binding their User Interfaces with their data. When the data changes, so does the UI. When the UI changes, so does the data. SwiftUI is also incredibly reusable. Views you create can be reused time and time again. SwiftUI is also baked into the new Xcode 11 and uses Previews to show you in REAL TIME how your code changes will effect the look of your app. In this course we'll cover: Your First SwiftUI App Xcode Previews Views Deep Dive Data and SwiftUI Accessibility Drawing and Animation SwiftUI for MacOS, WatchOS, and tvOS SwiftUI In Existing Projects Come join and learn the biggest developer tool released since Swift! Downloading the example code for this course: You can download the example code files for this course on GitHub at the following link: https://github.com/PacktPublishing/SwiftUI--Build-Beautiful-Robust-Apps . If you require support please email: customercare@packt.com.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1838987185"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781838987183"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=2f4gzgEACAAJ&dq=SwiftUI&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=2f4gzgEACAAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/SwiftUI_Build_Beautiful_Robust_Apps.html?hl=&id=2f4gzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2f4gzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Create stunning user interfaces across all Apple platforms with Swift 5 About This Video The flow of the course is simple and you will enjoy how complex concepts were taught in a logical sequence."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CZwVzgEACAAJ",
+      "etag": "mFsA2ZyDIbs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CZwVzgEACAAJ",
+      "volumeInfo": {
+        "title": "SwiftUI Essential Training",
+        "publishedDate": "2019",
+        "description": "Learn how to use SwiftUI to build user interfaces for any Apple device?Mac, iPhone, iPad, Apple Watch, or Apple TV?from the same code.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OCLC:1205444199"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=CZwVzgEACAAJ&dq=SwiftUI&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=CZwVzgEACAAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/SwiftUI_Essential_Training.html?hl=&id=CZwVzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CZwVzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Learn how to use SwiftUI to build user interfaces for any Apple device?Mac, iPhone, iPad, Apple Watch, or Apple TV?from the same code."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0LIhzgEACAAJ",
+      "etag": "iR4zVljERn0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0LIhzgEACAAJ",
+      "volumeInfo": {
+        "title": "Building Apps with SwiftUI",
+        "subtitle": "Custom Views and Common Use Cases",
+        "authors": [
+          "Mehul Mohan"
+        ],
+        "description": "Create a basic application flow with SwiftUI involving login and a user dashboard interface in this video. Discover the new file structure introduced by SwiftUI and how it uses structs instead of classes for Views. Then learn about common layout elements such as Text, Images, HStack, VStack, ZStack, and NavigationViews. After understanding the structure and elements, dive in to create a login layout and a user authentication backend. Then once you've got your user logged in, create a dashboard layout for your users with SwiftUI. Finally learn to troubleshoot and polish up your new interfaces. What You Will Learn Create login and dashboard interfaces Troubleshoot common SwiftUI interface issues Incorporate NodeJS for authentication and backend work Who This Video Is For iOS developers with a basic familiarity of the Swift language who would like to use SwiftUI to design easy, elegant, and powerful interfaces.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1484253108"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484253106"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=0LIhzgEACAAJ&dq=SwiftUI&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=0LIhzgEACAAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Building_Apps_with_SwiftUI.html?hl=&id=0LIhzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0LIhzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Create a basic application flow with SwiftUI involving login and a user dashboard interface in this video."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4AH4zQEACAAJ",
+      "etag": "zAwiERC9wu4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4AH4zQEACAAJ",
+      "volumeInfo": {
+        "title": "Beginner's Guide to IOS 14 App Development Using Swift 5, SwiftUI and UIKit",
+        "subtitle": "Develop 8 Practical Apps Including a 2D SpriteKit and a 3D SceneKit Game",
+        "authors": [
+          "Serhan Yamacli"
+        ],
+        "publisher": "Independently Published",
+        "publishedDate": "2020-10-30",
+        "description": "This book covers iOS 14 app design fundamentals using the latest Swift 5 programming language, Xcode 12 and iOS 14 SDK.The author assumes you have no experience in app development. The book starts with the installation of the required programming environment and setting up the simulators. Then, the simplest Hello World app is developed step by step. In the next chapter, basics of the Swift 5 programming language are given with practical examples. Screenshots and code snippets are clearly given in the book to guide the reader. After the Swift lecture, 8 complete apps (including a 2D game in SpriteKit and a 3D game in SceneKit) are developed in separate chapters. Both the mature UIKit and the newest SwiftUI frameworks are used for developing these apps. As the reader follows the development of the example apps, he/she will learn designing user interfaces, connecting interface objects to code, developing efficient Swift code and testing the app on simulators and real devices.Chapters of the book and the contents of these chapters are as follows: Chapter 1. Introduction: General info and the steps of developing an iOS app.Chapter 2. Setting up your development environment: Installing Xcode, setting up signing identities, viewing/adding simulators and real devices.Chapter 3. Test drive - the \"Hello World\" app: Creating a new Xcode project, adding and positioning user interface objects, building the project, running the developed app on the simulator and on the real device.Chapter 4. Swift programming language: Variables, constants, optionals, arrays, dictionaries, sets, if-else and switch-case decision making statements, for and while loops, functions, classes, objects and inheritance in Swift 5. Each concept is clearly explained step by step with code examples and screenshots.Chapter 5. Disco lights app: Using buttons and connecting actions to buttons in the code.Chapter 6. Body mass index (BMI) calculator app: Using input boxes, performing calculations and displaying the results on the screen.Chapter 7. Simple die roller app: Using random number generator functions, including image sets in your project, displaying images on the screen and changing the displayed image using Swift code.Chapter 8. Exercise calorie calculator app: Using global variables, creating tabbed apps and utilizing segmented controls.Chapter 9. Show my location app: Adding a map object to your app, setting required permissions, accessing GPS device and showing real time location on the map.Chapter 10. S.O.S. sender app: Adding SMS functionality, setting required permissions and sending real time location using SMS.Chapter 11. Bounce the ball game: Basics of SpriteKit that is used to develop 2D iOS games, adding objects to the game, sensing screen touches, moving game objects according to touches, combining all these and more to develop a complete 2D game.Chapter 12. Blue Capsule Hunter game: Basics of SceneKit that is used to develop 3D iOS games, adding objects to the game, moving objects, sensing screen touches, using score text and combining these concepts for developing a 3D game.This book includes 218 figures and 108 code snippets that are used to explain app development concepts clearly. Full resolution colour figures and project files can be viewed and downloaded from the book's companion website: www.yamaclis.com/ios14.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9798555856722"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 254,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4AH4zQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4AH4zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=4AH4zQEACAAJ&dq=SwiftUI&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=4AH4zQEACAAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Beginner_s_Guide_to_IOS_14_App_Developme.html?hl=&id=4AH4zQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4AH4zQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book covers iOS 14 app design fundamentals using the latest Swift 5 programming language, Xcode 12 and iOS 14 SDK.The author assumes you have no experience in app development."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GWzBzQEACAAJ",
+      "etag": "HogyBd5wlGg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GWzBzQEACAAJ",
+      "volumeInfo": {
+        "title": "UI Design for iOS App Development",
+        "subtitle": "Using SwiftUI",
+        "authors": [
+          "Bear Cahill"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2021-01-02",
+        "description": "Design is a challenge for most developers. Without a background or training in user interface skills, it’s hard to navigate what choices make the best sense for the end user. This book shows you how to migrate from Storyboards to SwiftUI to design dynamic and engaging UIs for iOS apps. SwiftUI is new in iOS 13 but you may want to support past versions as well. To satisfy this, you'll start by reviewing nib/xib files and Storyboards and then move into SwiftUI and explore how to design apps in both UI toolkits. Gaining a firm base in technologies old and new will allow you to future proof your UI during this period of transition. Developers generally want to stay in code, but UI development tends to be a visual effort. This book takes a very structured and code-like approach to UI design to take the fear away. You’ll grasp Storyboards and Auto-Layout/Constraints, while also learning to move past them with the easier options in SwiftUI. A clear understanding of both technologies is key to keeping your most functional coding and also making things look right. With UI Design for iOS App Development, you’ll learn SwiftUI easily and get back into your code quickly. What You'll Learn Build iOS app UIs both in current and new paradigms Work with Storyboards and Auto-Layout/Constraints Design UIs in a coder friendly way Who This Book Is For iOS developers building a strong foundation in UI design to fill in the gaps from their training. For veteran developers, it’s vital to be able to match your coding skills with equal UI/UX abilities.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1484264487"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484264485"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 322,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GWzBzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GWzBzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=GWzBzQEACAAJ&dq=SwiftUI&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=GWzBzQEACAAJ&dq=SwiftUI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/UI_Design_for_iOS_App_Development.html?hl=&id=GWzBzQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GWzBzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book shows you how to migrate from Storyboards to SwiftUI to design dynamic and engaging UIs for iOS apps. SwiftUI is new in iOS 13 but you may want to support past versions as well."
+      }
+    }
+  ]
+}

@@ -10,10 +10,10 @@ import SwiftUI
 @main
 struct BooksManagerApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BookListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
