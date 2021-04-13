@@ -7,25 +7,28 @@
 
 import Foundation
 
-struct AppleAudibook: BookType {
-    let collectionId: Int
-    let artistId: Int
-    let country: String
-    let currency: String
-    let copyright: String?
-    let artistName: String
-    let description: String
-    let releaseDate: String
+struct AppleAudiobook: BookType {
     let wrapperType: String
+    let artistId: Int
+    let collectionId: Int
+    let artistName: String
+    let collectionName: String
+    let artistViewUrl: String
+    let collectionViewUrl: String
     let artworkUrl60: String
     let artworkUrl100: String
-    let artistViewUrl: String
-    let collectionName: String
     let collectionPrice: Double
+    let trackCount: Int
+    let copyright: String?
+    let country: String
+    let currency: String
+    let releaseDate: String
     let primaryGenreName: String
+    let previewUrl: String
+    let description: String
 }
 
 struct AppleAudiobooksResponse: BooksResponse {
     let resultCount: Int
-    let results: [AppleAudibook]?
+    let results: [AppleAudiobook]?
 }

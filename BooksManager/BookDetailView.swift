@@ -9,77 +9,80 @@ import SwiftUI
 
 struct BookDetailView: View {
     let book: BookViewModel
+    @State private var detailTab: BookDetailTab = .description
     
     var body: some View {
-        ZStack {
-//            ZStack(alignment: .bottom) {
-//                Color("mainOrange")
-////                Color.systemBackground
-////                .cornerRadius(30).frame(height: 530)
-//            }
-//            .ignoresSafeArea()
-            
-            ScrollView(showsIndicators: false) {
-                VStack(spacing: 20) {
-                    bookCover
-                        
-                    VStack(alignment: .leading, spacing: 20) {
-                        VStack(alignment: .leading, spacing: 10) {
-                            Text(book.title).font(.title2).bold()
-                            Text(book.authors).font(.subheadline).opacity(0.5)
-                        }
-                        
-                        HStack {
-                            RatingStarsView(rating: book.averageRating, showRating: true)
-                                
-                            Spacer()
-                            
-                            Text("\(book.ratingCount) reviews").opacity(0.6)
-                        }
-                        .font(.callout)
-                        
-                        Divider()
-                        
-                        Text(book.description).opacity(0.7).lineSpacing(7)
-                        
-                        Text("Fiction").font(.caption)
-                            .padding(.horizontal).padding(.vertical, 2)
-                            .background(RoundedRectangle(cornerRadius: 30).foregroundColor(.gray))
-                    }
-                    .background(Color.systemBackground.ignoresSafeArea())
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                }
-                .padding(.top, 10)
-                .padding(.horizontal, 20)
+        ScrollView {
+            LazyVStack(spacing: 10, pinnedViews: [.sectionHeaders]) {
                 
-                Spacer()
+                VStack(spacing: 20) {
+                    BookDetailMainInfo(book: book)
+                    BookDetailExtraInfo(book: book)
+                }
+                .embedInSection()
+                
+                BookDetailPriceSection(book: book)
+                
+                VStack(alignment: .leading, spacing: 20) {
+                    UnderlinePicker(BookDetailTab.allCases, selection: $detailTab) {
+                        Text($0.rawValue).font(.headline)
+                    }
+                    
+                    Group {
+                        if detailTab == .description {
+                            BookDetailDescription(book.description)
+                        } else if detailTab == .info {
+                            VStack(alignment: .leading, spacing: 10) {
+                                if book.publisher != "" {
+                                    Text("Publisher: \(book.publisher)")
+                                }
+                                
+                                Text("Published date: \(book.publishedDate)")
+                                
+                                if book.sizeBytes != "0" {
+                                    Text("Size: \(book.sizeBytes) bytes")
+                                }
+                            }
+                        }
+                    }
+                    .font(.subheadline)
+                    .opacity(0.8)
+                }
+                .embedInSection()
+                .padding(.bottom)
             }
         }
+        .padding(10)
+        .edgesIgnoringSafeArea(.bottom)
+        .background(Color.systemGroupedBackground.ignoresSafeArea())
     }
-    
-    private var bookCover: some View {
-        AsyncImage(url: book.coverLinkBig) {
-            AsyncImage(url: book.cover) {
-                Image(systemName: "text.book.closed")
-                    .resizable().padding().foregroundColor(.secondary)
-            }
-        }
-        .cornerRadius(10)
-        .changeSize(maxWidth: 190, maxHeight: 270)
+
+    private enum BookDetailTab: String, Identifiable, CaseIterable {
+        case description = "Description"
+        case info = "Info"
+        
+        var id: String { rawValue }
     }
 }
 
 // MARK: -- Preview
 
-struct BookDetailView_Previews: PreviewProvider {
+struct BookDetailView2_Previews: PreviewProvider {
     static var previews: some View {
         let book = SearchBooks.booksSample[0]!
+        
         BookDetailView(book: book)
 //            .preferredColorScheme(.dark)
-            .toolbar { ToolbarItem(placement: .navigationBarLeading) {
-                Text("Google Books")
-            } }
-            .embedInNavigationView(.inline)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    HStack {
+                        Image(systemName: "chevron.backward")
+                        Text("Google Books")
+                    }
+                }
+            }
+        .embedInNavigationView()
     }
 }
 

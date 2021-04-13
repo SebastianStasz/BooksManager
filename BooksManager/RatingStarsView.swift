@@ -52,7 +52,7 @@ struct RatingStarsView: View {
 
 struct RatingStarsView_Previews: PreviewProvider {
     static var previews: some View {
-        RatingStarsView(rating: 2)
+        RatingStarsView(rating: 2, showRating: true)
             .previewLayout(PreviewLayout.sizeThatFits)
     }
 }

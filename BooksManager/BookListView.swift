@@ -16,7 +16,7 @@ struct BookListView: View {
     
     var body: some View {
         ZStack {
-            Color.secondarySystemBackground.edgesIgnoringSafeArea(.bottom)
+            Color.systemGroupedBackground.edgesIgnoringSafeArea(.bottom)
             
             VStack(spacing: 0) {
                 if isListEmpty { emptyList } else { listOfBooks }
@@ -68,6 +68,7 @@ struct BookListView: View {
                 }
                 .buttonStyle(PlainButtonStyle())
                 
+                if searchBooks.isLoading { ProgressView() }
                 if searchBooks.nextSearchWhenId == nil { noMoreResults }
             }
             .padding(.top, mainPadding)

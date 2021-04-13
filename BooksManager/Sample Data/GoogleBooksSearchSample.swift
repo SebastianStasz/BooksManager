@@ -22,7 +22,7 @@ extension SearchBooks {
                 publishedDate: "1994",
                 description: "It is difficult now to recall the enormous impact that George Orwell's classic dystopia, Nineteen Eighty-Four, had on the psyche of the western world. Written by a dying man in the grimmest of circumstances, the novel was intended as both a warning against totalitarianism and the debasement of language, and as a reaction to Orwell's personal experiences with English socialism and World War II. Clearly, \"1984\" has turned out differently than Orwell depicted. Yet the power of the novel remains undiminished: it continues to scare and enlighten future generations of readers nearly a half century after its original publication. Well-known scholar Robert Plank provides a psychological examination of the roots of Nineteen Eighty-Four, and the curious parallels between the book and its antecedents, including the film Citizen Kane, the novels of Dostoevsky and Kafka, the philosophy of Whorf, Orwell's own life and works, and many other obvious and hidden influences. Complete with chronology, notes, bibliographies, and index.",
                 pageCount: 136,
-                categories: ["Literary Criticism"],
+                categories: ["Literary Criticism", "Psychology", "Motorization", "Something"],
                 averageRating: 3,
                 ratingsCount: 12,
                 language: "en",

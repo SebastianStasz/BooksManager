@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class SearchBooks: ObservableObject {
-    private var appleAudiobooksService = BooksService(AppleBooksAPI<AppleAudibook>())
+    private var appleAudiobooksService = BooksService(AppleBooksAPI<AppleAudiobook>())
     private var appleEbooksService = BooksService(AppleBooksAPI<AppleEbook>())
     private var googleBooksService = BooksService(GoogleBooksAPI())
     private let formHasBennClosed = PassthroughSubject<Void, Never>()
@@ -67,6 +67,7 @@ class SearchBooks: ObservableObject {
     
     private func performNewSearch() -> AnyPublisher<Void, Never> {
         Publishers.CombineLatest(searchFieldHasBeenChanged(), googleFormHasBeenChanged())
+            .filter { [unowned self] _ in form.searchTerm != "" }
             .map { _ in }.eraseToAnyPublisher()
     }
     

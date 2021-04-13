@@ -72,7 +72,7 @@ struct BookRowView: View {
         }
         .padding(10)
         .frame(height: 120)
-        .background(Color.systemBackground)
+        .background(Color.secondarySystemGroupedBackground)
         .cornerRadius(5)
     }
     
