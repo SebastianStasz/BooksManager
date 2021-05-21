@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		9E109A70260FC31B0074137F /* ReadViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E109A6F260FC31B0074137F /* ReadViewSize.swift */; };
 		9E109A73260FC6F50074137F /* TruncableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E109A72260FC6F50074137F /* TruncableText.swift */; };
 		9E109A76260FC7E30074137F /* BookDetailDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E109A75260FC7E30074137F /* BookDetailDescription.swift */; };
+		9E360DC6265822BF00A5FF41 /* AsyncImageWithCache in Frameworks */ = {isa = PBXBuildFile; productRef = 9E360DC5265822BF00A5FF41 /* AsyncImageWithCache */; };
 		9E3CE8D525FD63030018D5A8 /* RatingStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CE8D425FD63030018D5A8 /* RatingStarsView.swift */; };
 		9E3CE8D825FD67290018D5A8 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CE8D725FD67290018D5A8 /* DoubleExtensions.swift */; };
 		9E4C44E826053315004705BC /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C44E726053315004705BC /* APIServiceError.swift */; };
@@ -43,15 +44,10 @@
 		9E8AABE6260402AB0034D668 /* AppleEbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AABE5260402AB0034D668 /* AppleEbook.swift */; };
 		9E905AD725FE0A1B00F965EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E905AD925FE0A1B00F965EA /* Localizable.strings */; };
 		9E943FA825FD05B300E037F4 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E943FA725FD05B300E037F4 /* ColorExtensions.swift */; };
-		9EA06444260CEC1B00E42BF0 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA06443260CEC1B00E42BF0 /* AsyncImageView.swift */; };
-		9EA06447260CEC5D00E42BF0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA06446260CEC5D00E42BF0 /* ImageCache.swift */; };
-		9EA0644A260CEC7700E42BF0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA06449260CEC7600E42BF0 /* ImageLoader.swift */; };
 		9EC0486625FAB6870030CC13 /* BooksManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0486525FAB6870030CC13 /* BooksManagerApp.swift */; };
 		9EC0486825FAB6870030CC13 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0486725FAB6870030CC13 /* BookListView.swift */; };
 		9EC0486D25FAB68B0030CC13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC0486C25FAB68B0030CC13 /* Preview Assets.xcassets */; };
-		9EC0486F25FAB68B0030CC13 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0486E25FAB68B0030CC13 /* Persistence.swift */; };
 		9EC0487D25FAB8030030CC13 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0487C25FAB8030030CC13 /* APIService.swift */; };
-		9EC0488225FAC20E0030CC13 /* BooksManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0488025FAC20E0030CC13 /* BooksManager.xcdatamodeld */; };
 		9EC0488625FAC4800030CC13 /* GoogleBoook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0488525FAC4800030CC13 /* GoogleBoook.swift */; };
 		9EC0A21226055829005D6E3B /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0A21126055829005D6E3B /* BookDetailView.swift */; };
 		9EEEF022260E71F800C35166 /* BookDetailMainInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEF021260E71F800C35166 /* BookDetailMainInfo.swift */; };
@@ -97,17 +93,12 @@
 		9E8AABE5260402AB0034D668 /* AppleEbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleEbook.swift; sourceTree = "<group>"; };
 		9E905AD825FE0A1B00F965EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9E943FA725FD05B300E037F4 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
-		9EA06443260CEC1B00E42BF0 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
-		9EA06446260CEC5D00E42BF0 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		9EA06449260CEC7600E42BF0 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		9EC0486225FAB6870030CC13 /* BooksManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooksManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC0486525FAB6870030CC13 /* BooksManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksManagerApp.swift; sourceTree = "<group>"; };
 		9EC0486725FAB6870030CC13 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC0486C25FAB68B0030CC13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9EC0486E25FAB68B0030CC13 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9EC0487325FAB68B0030CC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EC0487C25FAB8030030CC13 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		9EC0488125FAC20E0030CC13 /* BooksManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BooksManager.xcdatamodel; sourceTree = "<group>"; };
 		9EC0488525FAC4800030CC13 /* GoogleBoook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBoook.swift; sourceTree = "<group>"; };
 		9EC0A21126055829005D6E3B /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		9EEEF021260E71F800C35166 /* BookDetailMainInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailMainInfo.swift; sourceTree = "<group>"; };
@@ -121,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E360DC6265822BF00A5FF41 /* AsyncImageWithCache in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,16 +160,6 @@
 			name = "Book Model";
 			sourceTree = "<group>";
 		};
-		9EA06442260CEC0700E42BF0 /* Async Image */ = {
-			isa = PBXGroup;
-			children = (
-				9EA06449260CEC7600E42BF0 /* ImageLoader.swift */,
-				9EA06446260CEC5D00E42BF0 /* ImageCache.swift */,
-				9EA06443260CEC1B00E42BF0 /* AsyncImageView.swift */,
-			);
-			name = "Async Image";
-			sourceTree = "<group>";
-		};
 		9EC0485925FAB6870030CC13 = {
 			isa = PBXGroup;
 			children = (
@@ -198,16 +180,13 @@
 			isa = PBXGroup;
 			children = (
 				9EC0486525FAB6870030CC13 /* BooksManagerApp.swift */,
-				9EC0486E25FAB68B0030CC13 /* Persistence.swift */,
 				9EC0487C25FAB8030030CC13 /* APIService.swift */,
 				9E4C44E726053315004705BC /* APIServiceError.swift */,
-				9EA06442260CEC0700E42BF0 /* Async Image */,
 				9EC0488925FAC4A00030CC13 /* Models */,
 				9E673F3325FBE00100557104 /* View Models */,
 				9EC0488825FAC4920030CC13 /* Views */,
 				9EF337D525FB9AD0007A66B3 /* Helper Views */,
 				9EF337DA25FB9C14007A66B3 /* Extensions */,
-				9EC0488025FAC20E0030CC13 /* BooksManager.xcdatamodeld */,
 				9EC0487A25FAB7600030CC13 /* Supporting Files */,
 			);
 			path = BooksManager;
@@ -315,6 +294,7 @@
 			);
 			name = BooksManager;
 			packageProductDependencies = (
+				9E360DC5265822BF00A5FF41 /* AsyncImageWithCache */,
 			);
 			productName = BooksManager;
 			productReference = 9EC0486225FAB6870030CC13 /* BooksManager.app */;
@@ -344,6 +324,7 @@
 			);
 			mainGroup = 9EC0485925FAB6870030CC13;
 			packageReferences = (
+				9E360DC4265822BF00A5FF41 /* XCRemoteSwiftPackageReference "AsyncImageWithCache" */,
 			);
 			productRefGroup = 9EC0486325FAB6870030CC13 /* Products */;
 			projectDirPath = "";
@@ -389,7 +370,6 @@
 				9E4C44E826053315004705BC /* APIServiceError.swift in Sources */,
 				9E856D3325FD319500EE2F3B /* BookRowView.swift in Sources */,
 				9E4C44EB2605335B004705BC /* SFSymbolsHelper.swift in Sources */,
-				9EC0486F25FAB68B0030CC13 /* Persistence.swift in Sources */,
 				9E856D3625FD3AE500EE2F3B /* KeyboardManager.swift in Sources */,
 				9E8AABCF260361510034D668 /* FormatterExtensions.swift in Sources */,
 				9EC0487D25FAB8030030CC13 /* APIService.swift in Sources */,
@@ -404,13 +384,10 @@
 				9E8AABE22603FF6A0034D668 /* AppleAudiobook.swift in Sources */,
 				9E600C3F25FFD1B400624F28 /* GoogleBooksSearchSample.swift in Sources */,
 				9E109A6D260FA5CF0074137F /* UnderlinePicker.swift in Sources */,
-				9EA06447260CEC5D00E42BF0 /* ImageCache.swift in Sources */,
 				9E109A73260FC6F50074137F /* TruncableText.swift in Sources */,
 				9EC0A21226055829005D6E3B /* BookDetailView.swift in Sources */,
 				9EEEF022260E71F800C35166 /* BookDetailMainInfo.swift in Sources */,
 				9E943FA825FD05B300E037F4 /* ColorExtensions.swift in Sources */,
-				9EA06444260CEC1B00E42BF0 /* AsyncImageView.swift in Sources */,
-				9EC0488225FAC20E0030CC13 /* BooksManager.xcdatamodeld in Sources */,
 				9E8AABDE2603FE930034D668 /* BooksResponse.swift in Sources */,
 				9E8AABDA2603C1EB0034D668 /* BooksAPI.swift in Sources */,
 				9E600C4525FFF9B000624F28 /* StringExtensions.swift in Sources */,
@@ -419,7 +396,6 @@
 				9E673F3525FBE01400557104 /* SearchBooksForm.swift in Sources */,
 				9E673F3125FBDDF400557104 /* BooksService.swift in Sources */,
 				9E7D570D26162CCB003317C2 /* BookDetailPriceSection.swift in Sources */,
-				9EA0644A260CEC7700E42BF0 /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,18 +596,24 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		9EC0488025FAC20E0030CC13 /* BooksManager.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9EC0488125FAC20E0030CC13 /* BooksManager.xcdatamodel */,
-			);
-			currentVersion = 9EC0488125FAC20E0030CC13 /* BooksManager.xcdatamodel */;
-			path = BooksManager.xcdatamodeld;
-			sourceTree = SOURCE_ROOT;
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		9E360DC4265822BF00A5FF41 /* XCRemoteSwiftPackageReference "AsyncImageWithCache" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SebastianStasz/AsyncImageWithCache.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E360DC5265822BF00A5FF41 /* AsyncImageWithCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E360DC4265822BF00A5FF41 /* XCRemoteSwiftPackageReference "AsyncImageWithCache" */;
+			productName = AsyncImageWithCache;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EC0485A25FAB6870030CC13 /* Project object */;
 }

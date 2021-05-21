@@ -6,9 +6,8 @@
 //
 
 import SwiftUI
-
+import AsyncImageWithCache
 import WebKit
-import SwiftUI
 
 struct BookDetailMainInfo: View {
     let book: BookViewModel
@@ -39,8 +38,8 @@ struct BookDetailMainInfo: View {
     }
     
     private var bookCover: some View {
-        AsyncImage(url: book.coverLinkBig) {
-            AsyncImage(url: book.cover) {
+        AsyncImage(url: book.coverLinkBig ?? "") {
+            AsyncImage(url: book.cover ?? "") {
                 Image(systemName: "text.book.closed")
                     .resizable().padding().foregroundColor(.secondary)
             }

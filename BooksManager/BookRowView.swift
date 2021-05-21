@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import AsyncImageWithCache
 
 struct BookRowView: View {
     private let book: BookViewModel
 
     var body: some View {
         HStack {
-            AsyncImage(url: book.cover) {
+            AsyncImage(url: book.cover ?? "") {
                 Image(systemName: "text.book.closed")
                     .resizable().padding(10).foregroundColor(.secondary)
             }
